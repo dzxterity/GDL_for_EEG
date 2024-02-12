@@ -29,6 +29,9 @@ Our methodology leverages a Graph Structure Learning (GSL) layer that learns opt
 - **Resolution Specificity:** Graphs are learned over pre-defined time intervals, allowing for a balance between temporal resolution and computational efficiency. This method acknowledges that brain connectivity patterns can vary significantly over short periods.
 - **Self-attention Mechanism:** Inspired by self-attention mechanisms in natural language processing, our GSL approach allows each node to dynamically adjust its connections based on the evolving context, mirroring the brain's adaptive nature.
 
+<img width="971" alt="image" src="https://github.com/dzxterity/GDL_for_EEG/assets/24210513/ba4f4824-fce9-46ac-9717-8e48368b6a5c">
+
+
 This dynamic construction not only enhances the model's ability to capture real-time changes in brain activity but also opens new avenues for interpreting complex brain signals, offering insights into the underlying mechanisms of cognitive processes and disorders.
 
 For more technical details on the implementation and evaluation of dynamic graph structure learning in our project, refer to [Modeling Multivariate Biosignals With Graph Neural Networks and Structured State Space Models](https://arxiv.org/abs/2211.11176).
