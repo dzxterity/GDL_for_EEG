@@ -50,6 +50,9 @@ Spherical CNNs extend the capabilities of traditional CNNs to handle data define
 - **Efficient Spherical Convolutions**: The paper introduces advancements in computing spherical convolutions, significantly enhancing the efficiency and scalability of spherical CNNs. This is achieved through novel implementations optimized for modern hardware accelerators and improvements in model components.
 - **Application to EEG Data**: By accounting for the spherical geometry of the scalp, spherical CNNs can more accurately capture the spatial relationships between EEG electrodes, potentially improving the interpretability and performance of EEG data analysis.
 
+<img width="537" alt="image" src="https://github.com/dzxterity/GDL_for_EEG/assets/24210513/a8955607-a6d5-486f-9302-0ff88228d189">
+
+
 These advancements enable spherical CNNs to tackle larger and more complex problems than previously possible, opening new avenues for deep learning applications in EEG data interpretation and beyond.
 
 For more details on the implementation and advancements in spherical CNNs, and to explore the codebase, visit the [Spherical CNN GitHub repository](https://github.com/google-research/spherical-cnn).
