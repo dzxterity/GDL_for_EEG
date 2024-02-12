@@ -40,7 +40,7 @@ For more technical details on the implementation and evaluation of dynamic graph
 
 ### Spherical CNNs vs. Traditional CNNs
 
-- **Investigate the advantages of spherical convolutions** over periodic element-wise convolutions in conventional CNNs. Spherical convolutions consider the curvature of the surface where data points (electrodes in the EEG cap) are located, potentially improving model performance by leveraging the geometric properties of EEG data.
+- **Investigate the advantages of spherical convolutions** over convolutions in conventional CNNs. Spherical convolutions consider the curvature of the surface where data points (electrodes in the EEG cap) are located, potentially improving model performance by leveraging the geometric properties of EEG data.
 
 ## Spherical Convolutional Neural Networks (Spherical CNNs)
 
