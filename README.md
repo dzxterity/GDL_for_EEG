@@ -42,6 +42,21 @@ For more technical details on the implementation and evaluation of dynamic graph
 
 - **Investigate the advantages of spherical convolutions** over periodic element-wise convolutions in conventional CNNs. Spherical convolutions consider the curvature of the surface where data points (electrodes in the EEG cap) are located, potentially improving model performance by leveraging the geometric properties of EEG data.
 
+## Spherical Convolutional Neural Networks (Spherical CNNs)
+
+Spherical CNNs extend the capabilities of traditional CNNs to handle data defined on spherical domains, leveraging spherical convolutions as their core operation. This adaptation is crucial for analyzing EEG data, where electrodes are naturally positioned on the approximately spherical surface of the human scalp. The key advantages of spherical CNNs include:
+
+- **Rotation Equivariance**: Unlike traditional CNNs that are translation equivariant, spherical CNNs are rotation equivariant, making them highly suitable for EEG data analysis, where orientation and position on the scalp are variable.
+- **Efficient Spherical Convolutions**: The paper introduces advancements in computing spherical convolutions, significantly enhancing the efficiency and scalability of spherical CNNs. This is achieved through novel implementations optimized for modern hardware accelerators and improvements in model components.
+- **Application to EEG Data**: By accounting for the spherical geometry of the scalp, spherical CNNs can more accurately capture the spatial relationships between EEG electrodes, potentially improving the interpretability and performance of EEG data analysis.
+
+These advancements enable spherical CNNs to tackle larger and more complex problems than previously possible, opening new avenues for deep learning applications in EEG data interpretation and beyond.
+
+For more details on the implementation and advancements in spherical CNNs, and to explore the codebase, visit the [Spherical CNN GitHub repository](https://github.com/google-research/spherical-cnn).
+
+For an in-depth understanding of the technical advancements and methodologies employed in spherical CNNs, refer to the paper on [arXiv](https://arxiv.org/abs/2306.05420).
+
+
 ## Methodology
 
 - **Dataset:** Utilize the BCI Competition IV dataset, a benchmark for evaluating the effectiveness of various neural network architectures on EEG data.
