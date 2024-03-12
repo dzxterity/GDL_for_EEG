@@ -26,24 +26,18 @@ This section focuses on the influence of graph construction based on different t
 
 Dynamic graph structure learning is crucial for understanding the complex, evolving relationships in ECoG data. Our approach utilizes a Graph Structure Learning (GSL) layer to dynamically learn optimal graph topologies, incorporating temporal adaptation, resolution specificity, and a self-attention mechanism.
 
-![Dynamic Graph Structure Learning Visualization](https://github.com/dzxterity/GDL_for_ECoG/assets/24210513/ba4f4824-fce9-46ac-9717-8e48368b6a5c)
+<img width="1395" alt="Screenshot 2024-03-12 at 13 48 12" src="https://github.com/dzxterity/GDL_for_EEG/assets/24210513/02e53f72-79f5-4d78-93f9-7fe7bcd489f5">
 
-### Spherical CNNs vs. Traditional CNNs
-
-We investigate the advantages of spherical CNNs over traditional CNNs, highlighting the importance of considering the curvature of the scalp in ECoG data analysis.
-
-## Spherical Convolutional Neural Networks (Spherical CNNs)
-
-Spherical CNNs are tailored for data defined on spherical domains, offering rotation equivariance and efficient spherical convolutions, which are particularly suited for analyzing ECoG data.
-
-![Spherical CNNs Visualization](https://github.com/dzxterity/GDL_for_ECoG/assets/24210513/a8955607-a6d5-486f-9302-0ff88228d189)
 
 ## Mamba: Linear-Time Sequence Modeling with Selective State Spaces
 
 Incorporating the Mamba architecture allows for linear-time sequence modeling with selective state spaces, enhancing our approach to decoding ECoG signals for directional movement classification.
 
+<img width="1047" alt="Screenshot 2024-03-12 at 13 51 15" src="https://github.com/dzxterity/GDL_for_EEG/assets/24210513/b5cbf985-4ff7-4e3f-a32e-992c401ee2c4">
+
+
 ## Methodology
 
 - **Dataset:** Utilizing the BCI Competition IV dataset as a benchmark.
-- **Modeling Approach:** Designing and implementing various graph structures for ECoG data representation and comparing spherical CNNs with traditional CNNs.
+- **Modeling Approach:** Designing and implementing various graph structures for ECoG data representation.
 
