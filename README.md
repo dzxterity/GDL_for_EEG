@@ -2,10 +2,10 @@
 
 ## Overview
 
-This repository focuses on applying Geometric Deep Learning to ECoG data, specifically for advancing Brain-Computer Interfaces (BCI). Our project explores two main areas:
+This repository focuses on applying Geometric Deep Learning to ECoG data, specifically for advancing Brain-Computer Interfaces (BCI). Our project explores:
 
 - **Graph Neural Networks (GNNs):** Performance of GNNs on the BCI Competition IV dataset.
-- **Spherical Convolutional Neural Networks (Spherical CNNs):** Comparison of their effectiveness against traditional Convolutional Neural Networks (CNNs) in ECoG data analysis.
+
 
 ## Objectives
 
@@ -28,6 +28,8 @@ Dynamic graph structure learning is crucial for understanding the complex, evolv
 
 <img width="1395" alt="Screenshot 2024-03-12 at 13 48 12" src="https://github.com/dzxterity/GDL_for_EEG/assets/24210513/02e53f72-79f5-4d78-93f9-7fe7bcd489f5">
 
+
+For more technical details on our dynamic graph structure learning methodology, refer to the paper ["Modeling Multivariate Biosignals With Graph Neural Networks and Structured State Space Models"](https://arxiv.org/abs/2211.11176).
 
 ## Mamba: Linear-Time Sequence Modeling with Selective State Spaces
 
